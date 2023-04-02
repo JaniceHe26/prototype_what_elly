@@ -4,8 +4,15 @@ function setUp() {
     const y = event.clientY;
 
     const elementMouseIsOver = document.elementFromPoint(x, y);
+    let text = '';
+
+    if (elementMouseIsOver.textContent) {
+      text = elementMouseIsOver.textContent;
+    }
+
+    // console.log(text);
+
     const allStyle = getComputedStyle(elementMouseIsOver);
-    // console.log(allStyle); 
     const background_color = allStyle.backgroundColor;
     const hexColor = rgba2hex(background_color);
     console.log(hexColor);
