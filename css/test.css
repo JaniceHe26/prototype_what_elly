@@ -1,0 +1,38 @@
+#color-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.div1 {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+}
+
+.div2 {
+  width: 100px;
+  height: 100px;
+  background-color: paleturquoise;
+}
+
+.div3 {
+  width: 100px;
+  height: 100px;
+  background-color: aquamarine;
+}
+
+.div4 {
+  width: 100px;
+  height: 100px;
+  background-color: aliceblue;
+}
+
+.div5 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
